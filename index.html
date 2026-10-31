@@ -1,0 +1,1030 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Jungle Book Kids Play Zone | Kausa, Mumbra, Thane</title>
+<meta name="description" content="The Jungle Book Kids Play Zone in Kausa, Mumbra – A fun, safe indoor play area for children aged 1–10 years. Book your visit today! Play • Explore • Have Fun.">
+<meta name="keywords" content="kids play zone Mumbra, kids play zone Kausa, indoor play area Thane, children play zone Mumbra, jungle kids zone, play area near Kausa circle">
+<meta property="og:title" content="The Jungle Book Kids Play Zone | Kausa, Mumbra">
+<meta property="og:description" content="Fun indoor jungle-themed play zone for kids aged 1–10 years in Kausa, Mumbra, Thane.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --green-deep: #1a5c2e;
+  --green-mid: #2e8b57;
+  --green-leaf: #4caf50;
+  --green-light: #a8d5a2;
+  --yellow: #f9c22e;
+  --orange: #ff7c35;
+  --orange-dark: #e05e18;
+  --white: #ffffff;
+  --cream: #f8fef9;
+  --text-dark: #1a2e1e;
+  --text-mid: #3a5c40;
+  --radius-lg: 20px;
+  --radius-xl: 32px;
+  --shadow: 0 8px 32px rgba(26,92,46,0.15);
+  --shadow-card: 0 4px 20px rgba(26,92,46,0.12);
+  box-sizing: border-box;
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+*, *::before, *::after { box-sizing: inherit; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; scroll-padding-top: env(safe-area-inset-top, 0px); }
+body {
+  font-family: 'Nunito', sans-serif;
+  background: var(--white);
+  color: var(--text-dark);
+  overflow-x: hidden;
+  line-height: 1.6;
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
+
+/* NAV */
+nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+  background: rgba(26,92,46,0.97);
+  backdrop-filter: blur(8px);
+  padding: 12px 20px;
+  display: flex; align-items: center; justify-content: space-between;
+  padding-top: calc(12px + env(safe-area-inset-top, 0px));
+  box-shadow: 0 2px 16px rgba(0,0,0,0.18);
+}
+.nav-brand {
+  display: flex; align-items: center; gap: 10px;
+  text-decoration: none;
+}
+.nav-logo-circle {
+  width: 42px; height: 42px; border-radius: 50%;
+  background: var(--yellow);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 22px; flex-shrink: 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+.nav-brand-text {
+  font-family: 'Baloo 2', cursive;
+  font-weight: 800; font-size: 15px;
+  color: var(--white); line-height: 1.2;
+}
+.nav-brand-text span { color: var(--yellow); display: block; font-size: 11px; font-weight: 600; }
+.nav-links {
+  display: flex; gap: 4px; list-style: none;
+}
+.nav-links a {
+  color: rgba(255,255,255,0.85);
+  text-decoration: none; font-size: 13px; font-weight: 600;
+  padding: 6px 10px; border-radius: 8px;
+  transition: background 0.2s, color 0.2s;
+}
+.nav-links a:hover { background: rgba(255,255,255,0.15); color: var(--yellow); }
+.nav-cta {
+  background: var(--orange); color: white !important;
+  border-radius: 10px !important; padding: 7px 14px !important;
+}
+.nav-cta:hover { background: var(--orange-dark) !important; }
+.hamburger {
+  display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 4px;
+}
+.hamburger span {
+  width: 24px; height: 2.5px; background: white; border-radius: 2px;
+  transition: all 0.3s;
+}
+.mobile-menu {
+  display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+  background: var(--green-deep); z-index: 999; padding: 80px 24px 24px;
+  flex-direction: column; gap: 8px;
+}
+.mobile-menu.open { display: flex; }
+.mobile-menu a {
+  color: white; text-decoration: none; font-size: 22px; font-weight: 700;
+  font-family: 'Baloo 2', cursive; padding: 12px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+.mobile-menu .close-btn {
+  position: absolute; top: 16px; right: 20px;
+  font-size: 28px; cursor: pointer; color: white;
+  top: calc(16px + env(safe-area-inset-top, 0px));
+}
+@media (max-width: 680px) {
+  .nav-links { display: none; }
+  .hamburger { display: flex; }
+}
+
+/* HERO */
+.hero {
+  min-height: 100svh;
+  background: linear-gradient(160deg, #0d3d1a 0%, #1a5c2e 40%, #2e7d47 70%, #1a5c2e 100%);
+  display: flex; align-items: center; justify-content: center;
+  position: relative; overflow: hidden;
+  padding: 100px 20px 60px;
+  text-align: center;
+}
+.hero-bg-deco {
+  position: absolute; inset: 0; pointer-events: none; overflow: hidden;
+}
+/* Large decorative leaves */
+.leaf { position: absolute; opacity: 0.12; }
+.leaf-1 { top: -40px; left: -60px; width: 280px; transform: rotate(-20deg); }
+.leaf-2 { top: 40px; right: -80px; width: 320px; transform: rotate(15deg) scaleX(-1); }
+.leaf-3 { bottom: -60px; left: 10%; width: 240px; transform: rotate(10deg); }
+.leaf-4 { bottom: 0; right: 5%; width: 300px; transform: rotate(-5deg) scaleX(-1); }
+.sun-glow {
+  position: absolute; top: 15%; left: 50%; transform: translateX(-50%);
+  width: 400px; height: 400px;
+  background: radial-gradient(circle, rgba(249,194,46,0.15) 0%, transparent 65%);
+  border-radius: 50%;
+}
+.hero-animals {
+  position: absolute; bottom: 0; left: 0; right: 0;
+  display: flex; align-items: flex-end; justify-content: space-between;
+  padding: 0 4%;
+  pointer-events: none;
+}
+.hero-animal { font-size: clamp(40px, 6vw, 80px); opacity: 0.25; }
+.hero-content { position: relative; z-index: 1; max-width: 700px; }
+.hero-badge {
+  display: inline-block;
+  background: rgba(249,194,46,0.2); border: 1.5px solid var(--yellow);
+  color: var(--yellow); font-size: 13px; font-weight: 700;
+  padding: 6px 16px; border-radius: 50px; margin-bottom: 20px;
+  letter-spacing: 0.5px;
+}
+.hero-emoji-row { font-size: 40px; margin-bottom: 16px; }
+h1.hero-title {
+  font-family: 'Baloo 2', cursive;
+  font-size: clamp(28px, 6.5vw, 64px);
+  font-weight: 800; color: white; line-height: 1.1;
+  margin-bottom: 16px;
+  text-shadow: 0 2px 20px rgba(0,0,0,0.3);
+}
+h1.hero-title .accent { color: var(--yellow); }
+.hero-sub {
+  font-size: clamp(15px, 2.5vw, 20px);
+  color: rgba(255,255,255,0.85); margin-bottom: 12px;
+  font-weight: 600;
+}
+.hero-age {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: rgba(255,255,255,0.12); border-radius: 50px;
+  padding: 8px 20px; color: white; font-size: 15px; font-weight: 700;
+  margin-bottom: 32px; border: 1px solid rgba(255,255,255,0.2);
+}
+.hero-buttons { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
+.btn-primary {
+  display: inline-flex; align-items: center; gap: 10px;
+  background: #25D366; color: white; text-decoration: none;
+  font-family: 'Baloo 2', cursive; font-weight: 700; font-size: 17px;
+  padding: 14px 28px; border-radius: var(--radius-lg);
+  box-shadow: 0 6px 24px rgba(37,211,102,0.4);
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+.btn-primary:hover { transform: translateY(-2px); box-shadow: 0 10px 32px rgba(37,211,102,0.5); }
+.btn-secondary {
+  display: inline-flex; align-items: center; gap: 10px;
+  background: var(--orange); color: white; text-decoration: none;
+  font-family: 'Baloo 2', cursive; font-weight: 700; font-size: 17px;
+  padding: 14px 28px; border-radius: var(--radius-lg);
+  box-shadow: 0 6px 24px rgba(255,124,53,0.4);
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+.btn-secondary:hover { transform: translateY(-2px); box-shadow: 0 10px 32px rgba(255,124,53,0.5); }
+.scroll-hint {
+  position: absolute; bottom: 24px; left: 50%; transform: translateX(-50%);
+  color: rgba(255,255,255,0.5); font-size: 22px; animation: bounce 2s infinite;
+}
+@keyframes bounce { 0%,100%{transform:translateX(-50%) translateY(0)} 50%{transform:translateX(-50%) translateY(8px)} }
+
+/* SECTIONS */
+section { padding: 64px 20px; }
+.section-inner { max-width: 1000px; margin: 0 auto; }
+.section-tag {
+  display: inline-block;
+  background: var(--green-leaf); color: white;
+  font-size: 12px; font-weight: 700; padding: 4px 14px;
+  border-radius: 50px; margin-bottom: 12px; letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+h2.section-title {
+  font-family: 'Baloo 2', cursive;
+  font-size: clamp(26px, 5vw, 44px);
+  font-weight: 800; color: var(--green-deep);
+  line-height: 1.2; margin-bottom: 16px;
+}
+h2.section-title .accent { color: var(--orange); }
+.section-lead {
+  font-size: clamp(15px, 2.2vw, 18px);
+  color: var(--text-mid); max-width: 600px;
+  margin-bottom: 40px; line-height: 1.7;
+}
+
+/* ABOUT */
+.about-section { background: var(--cream); }
+.about-grid {
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 40px; align-items: center;
+}
+.about-visual {
+  background: linear-gradient(135deg, var(--green-deep), var(--green-mid));
+  border-radius: var(--radius-xl);
+  padding: 40px 32px; text-align: center;
+  box-shadow: var(--shadow);
+  position: relative; overflow: hidden;
+}
+.about-visual::before {
+  content: ''; position: absolute; inset: 0;
+  background: radial-gradient(circle at 30% 30%, rgba(249,194,46,0.15), transparent 60%);
+}
+.about-big-emoji { font-size: 80px; display: block; margin-bottom: 8px; }
+.about-tagline {
+  font-family: 'Baloo 2', cursive;
+  font-size: 22px; font-weight: 800; color: var(--yellow);
+  position: relative;
+}
+.about-tagline small { display: block; color: rgba(255,255,255,0.7); font-size: 13px; font-weight: 600; margin-top: 6px; }
+.about-stat-row {
+  display: flex; gap: 16px; margin-top: 24px; flex-wrap: wrap;
+}
+.about-stat {
+  flex: 1; min-width: 80px;
+  background: rgba(255,255,255,0.12); border-radius: 12px;
+  padding: 12px 8px; text-align: center;
+  border: 1px solid rgba(255,255,255,0.2);
+}
+.about-stat-num { font-family: 'Baloo 2', cursive; font-size: 22px; font-weight: 800; color: var(--yellow); }
+.about-stat-lbl { font-size: 11px; color: rgba(255,255,255,0.75); font-weight: 600; }
+.about-text p { color: var(--text-mid); font-size: 16px; line-height: 1.8; margin-bottom: 16px; }
+.about-tagline-pill {
+  display: inline-block; background: var(--green-deep); color: var(--yellow);
+  padding: 10px 24px; border-radius: 50px;
+  font-family: 'Baloo 2', cursive; font-weight: 800; font-size: 18px;
+  margin-top: 8px;
+}
+@media (max-width: 660px) {
+  .about-grid { grid-template-columns: 1fr; }
+}
+
+/* WHY CHOOSE */
+.why-section { background: white; }
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+.why-card {
+  background: var(--cream);
+  border: 2px solid var(--green-light);
+  border-radius: var(--radius-lg);
+  padding: 28px 24px;
+  transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+  position: relative; overflow: hidden;
+}
+.why-card::before {
+  content: ''; position: absolute; inset: 0;
+  background: linear-gradient(135deg, rgba(76,175,80,0.04), transparent);
+}
+.why-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-card);
+  border-color: var(--green-leaf);
+}
+.why-icon { font-size: 44px; margin-bottom: 14px; display: block; }
+.why-card h3 {
+  font-family: 'Baloo 2', cursive; font-weight: 800; font-size: 18px;
+  color: var(--green-deep); margin-bottom: 8px;
+}
+.why-card p { font-size: 14px; color: var(--text-mid); line-height: 1.6; }
+
+/* GALLERY */
+.gallery-section { background: var(--green-deep); }
+.gallery-section .section-tag { background: var(--yellow); color: var(--green-deep); }
+.gallery-section h2.section-title { color: white; }
+.gallery-section .section-lead { color: rgba(255,255,255,0.75); }
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+.gallery-item {
+  border-radius: 16px; overflow: hidden;
+  aspect-ratio: 1; cursor: pointer; position: relative;
+  background: rgba(255,255,255,0.08);
+  transition: transform 0.2s;
+}
+.gallery-item:hover { transform: scale(1.03); }
+.gallery-item:first-child { grid-column: span 2; aspect-ratio: 2/1; }
+.gallery-placeholder {
+  width: 100%; height: 100%;
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  gap: 8px; padding: 16px; text-align: center;
+  background: linear-gradient(135deg, rgba(76,175,80,0.2), rgba(249,194,46,0.1));
+  border: 2px dashed rgba(255,255,255,0.2);
+  border-radius: 16px;
+  color: rgba(255,255,255,0.6); font-size: 13px; font-weight: 600;
+}
+.gallery-placeholder .ph-icon { font-size: 36px; opacity: 0.5; }
+.gallery-upload-notice {
+  margin-top: 20px; text-align: center;
+  background: rgba(249,194,46,0.12); border: 1.5px solid rgba(249,194,46,0.3);
+  border-radius: 14px; padding: 16px 20px;
+  color: rgba(255,255,255,0.8); font-size: 14px;
+}
+.gallery-upload-notice strong { color: var(--yellow); }
+/* Lightbox */
+.lightbox {
+  display: none; position: fixed; inset: 0; z-index: 2000;
+  background: rgba(0,0,0,0.92); align-items: center; justify-content: center;
+  padding: 20px;
+}
+.lightbox.open { display: flex; }
+.lightbox-close {
+  position: absolute; top: 20px; right: 20px;
+  font-size: 36px; color: white; cursor: pointer; z-index: 1;
+  top: calc(20px + env(safe-area-inset-top, 0px));
+}
+.lightbox img { max-width: 90vw; max-height: 80vh; border-radius: 12px; }
+
+/* LOCATION */
+.location-section { background: var(--cream); }
+.location-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 36px; align-items: start; }
+.location-info h3 {
+  font-family: 'Baloo 2', cursive; font-weight: 800;
+  font-size: 22px; color: var(--green-deep); margin-bottom: 16px;
+}
+.address-card {
+  background: white; border-radius: var(--radius-lg);
+  padding: 24px; box-shadow: var(--shadow-card);
+  border-left: 5px solid var(--green-leaf);
+  margin-bottom: 20px;
+}
+.address-card .addr-icon { font-size: 20px; margin-right: 8px; }
+.address-card p { color: var(--text-mid); font-size: 15px; line-height: 1.7; }
+.address-card strong { color: var(--green-deep); font-size: 16px; }
+.map-embed {
+  background: rgba(46,139,87,0.1); border-radius: var(--radius-lg);
+  overflow: hidden; box-shadow: var(--shadow-card);
+  min-height: 280px;
+}
+.map-embed iframe { width: 100%; height: 320px; border: none; border-radius: var(--radius-lg); }
+@media (max-width: 660px) {
+  .location-grid { grid-template-columns: 1fr; }
+}
+
+/* CONTACT */
+.contact-section { background: var(--green-deep); }
+.contact-section h2.section-title { color: white; }
+.contact-section .section-tag { background: var(--orange); }
+.contact-section .section-lead { color: rgba(255,255,255,0.75); }
+.contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; }
+.contact-col h3 {
+  font-family: 'Baloo 2', cursive; font-weight: 800;
+  font-size: 19px; color: var(--yellow); margin-bottom: 16px;
+}
+.contact-btn {
+  display: flex; align-items: center; gap: 14px;
+  background: rgba(255,255,255,0.08);
+  border: 1.5px solid rgba(255,255,255,0.15);
+  border-radius: var(--radius-lg); padding: 16px 20px;
+  text-decoration: none; color: white; margin-bottom: 12px;
+  transition: background 0.2s, transform 0.15s;
+  font-weight: 700; font-size: 16px;
+}
+.contact-btn:hover { background: rgba(255,255,255,0.14); transform: translateX(4px); }
+.contact-btn .cb-icon { font-size: 26px; }
+.contact-btn .cb-label { font-size: 12px; opacity: 0.7; font-weight: 600; display: block; }
+.btn-wa { border-color: rgba(37,211,102,0.4) !important; }
+.btn-wa:hover { background: rgba(37,211,102,0.12) !important; }
+.btn-call { border-color: rgba(255,124,53,0.4) !important; }
+.btn-call:hover { background: rgba(255,124,53,0.1) !important; }
+@media (max-width: 600px) {
+  .contact-grid { grid-template-columns: 1fr; }
+}
+
+/* ENQUIRY FORM */
+.form-section { background: white; }
+.enquiry-form {
+  background: var(--cream); border-radius: var(--radius-xl);
+  padding: 36px 32px; max-width: 580px; margin: 0 auto;
+  box-shadow: var(--shadow);
+  border: 2px solid var(--green-light);
+}
+.form-row { margin-bottom: 18px; }
+.form-row label {
+  display: block; font-weight: 700; font-size: 14px;
+  color: var(--green-deep); margin-bottom: 6px;
+}
+.form-row input, .form-row select, .form-row textarea {
+  width: 100%; padding: 12px 16px;
+  border: 2px solid var(--green-light);
+  border-radius: 12px; font-family: 'Nunito', sans-serif;
+  font-size: 15px; color: var(--text-dark);
+  background: white; outline: none;
+  transition: border-color 0.2s;
+}
+.form-row input:focus, .form-row textarea:focus {
+  border-color: var(--green-leaf); box-shadow: 0 0 0 3px rgba(76,175,80,0.1);
+}
+.form-row textarea { min-height: 90px; resize: vertical; }
+.form-btns { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 8px; }
+.form-submit {
+  flex: 1; min-width: 180px; padding: 14px;
+  background: var(--green-mid); color: white; border: none;
+  border-radius: var(--radius-lg); font-family: 'Baloo 2', cursive;
+  font-weight: 700; font-size: 16px; cursor: pointer;
+  transition: background 0.2s, transform 0.15s;
+}
+.form-submit:hover { background: var(--green-deep); transform: translateY(-1px); }
+.form-wa-btn {
+  flex: 1; min-width: 180px; padding: 14px;
+  background: #25D366; color: white; border: none;
+  border-radius: var(--radius-lg); font-family: 'Baloo 2', cursive;
+  font-weight: 700; font-size: 16px; cursor: pointer;
+  text-decoration: none; display: flex; align-items: center; justify-content: center; gap: 8px;
+  transition: background 0.2s, transform 0.15s;
+}
+.form-wa-btn:hover { background: #1ebe5c; transform: translateY(-1px); }
+.form-success {
+  display: none; text-align: center; padding: 24px;
+  background: rgba(76,175,80,0.08); border-radius: 16px;
+  border: 2px solid var(--green-leaf); color: var(--green-deep);
+  font-size: 16px; font-weight: 700; margin-top: 16px;
+}
+.form-success .fs-icon { font-size: 48px; display: block; margin-bottom: 8px; }
+
+/* INSTAGRAM */
+.instagram-section { background: linear-gradient(135deg, #833ab4 0%, #fd1d1d 50%, #fcb045 100%); }
+.instagram-section h2.section-title { color: white; }
+.instagram-section .section-tag { background: rgba(255,255,255,0.25); color: white; }
+.instagram-section .section-lead { color: rgba(255,255,255,0.85); }
+.insta-handle {
+  display: inline-flex; align-items: center; gap: 12px;
+  background: rgba(255,255,255,0.15); border-radius: 50px;
+  padding: 10px 24px; margin-bottom: 24px;
+  color: white; font-size: 18px; font-weight: 700;
+  border: 1.5px solid rgba(255,255,255,0.3);
+}
+.btn-insta {
+  display: inline-flex; align-items: center; gap: 10px;
+  background: white; color: #833ab4; text-decoration: none;
+  font-family: 'Baloo 2', cursive; font-weight: 800; font-size: 17px;
+  padding: 14px 30px; border-radius: var(--radius-lg);
+  box-shadow: 0 6px 24px rgba(0,0,0,0.2);
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+.btn-insta:hover { transform: translateY(-2px); box-shadow: 0 10px 32px rgba(0,0,0,0.3); }
+
+/* FLOATING BUTTONS */
+.fab-container {
+  position: fixed; bottom: 24px; right: 20px; z-index: 900;
+  display: flex; flex-direction: column; align-items: flex-end; gap: 12px;
+  bottom: calc(24px + env(safe-area-inset-bottom, 0px));
+}
+.fab {
+  display: flex; align-items: center; gap: 10px;
+  padding: 13px 20px; border-radius: 50px; border: none;
+  color: white; font-family: 'Baloo 2', cursive; font-weight: 700;
+  font-size: 15px; cursor: pointer; text-decoration: none;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.3);
+  transition: transform 0.15s, box-shadow 0.15s;
+  white-space: nowrap;
+}
+.fab:hover { transform: scale(1.05); box-shadow: 0 8px 32px rgba(0,0,0,0.4); }
+.fab-wa { background: #25D366; }
+.fab-call { background: var(--orange); }
+@media (max-width: 480px) {
+  .fab { padding: 13px 16px; font-size: 14px; }
+}
+
+/* FOOTER */
+footer {
+  background: #0c2e17;
+  color: rgba(255,255,255,0.8);
+  padding: 48px 20px 32px;
+  padding-bottom: calc(32px + env(safe-area-inset-bottom, 0px));
+}
+.footer-inner { max-width: 1000px; margin: 0 auto; }
+.footer-top { display: grid; grid-template-columns: 1.5fr 1fr 1fr; gap: 40px; margin-bottom: 40px; }
+.footer-brand h3 {
+  font-family: 'Baloo 2', cursive; font-weight: 800; font-size: 22px;
+  color: white; margin-bottom: 6px;
+}
+.footer-brand .tagline { color: var(--yellow); font-weight: 700; font-size: 15px; margin-bottom: 12px; }
+.footer-brand p { font-size: 14px; line-height: 1.7; color: rgba(255,255,255,0.65); }
+.footer-col h4 {
+  font-family: 'Baloo 2', cursive; font-weight: 800;
+  color: var(--yellow); font-size: 16px; margin-bottom: 14px;
+}
+.footer-col ul { list-style: none; }
+.footer-col ul li { margin-bottom: 8px; }
+.footer-col ul li a {
+  color: rgba(255,255,255,0.7); text-decoration: none; font-size: 14px;
+  transition: color 0.2s;
+}
+.footer-col ul li a:hover { color: var(--yellow); }
+.footer-col p { font-size: 14px; color: rgba(255,255,255,0.7); margin-bottom: 8px; }
+.footer-divider { border: none; border-top: 1px solid rgba(255,255,255,0.08); margin: 0 0 24px; }
+.footer-bottom { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
+.footer-bottom p { font-size: 13px; color: rgba(255,255,255,0.45); }
+.footer-bottom .footer-animals { font-size: 20px; }
+@media (max-width: 660px) {
+  .footer-top { grid-template-columns: 1fr; gap: 28px; }
+}
+
+/* UTILITY */
+.text-center { text-align: center; }
+.mt-8 { margin-top: 8px; }
+.mt-16 { margin-top: 16px; }
+.mt-24 { margin-top: 24px; }
+
+/* DIVIDER */
+.wave-divider { line-height: 0; overflow: hidden; }
+.wave-divider svg { display: block; width: 100%; }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="navbar">
+  <a class="nav-brand" href="#home">
+    <div class="nav-logo-circle">🦁</div>
+    <div class="nav-brand-text">
+      The Jungle Book
+      <span>Kids Play Zone</span>
+    </div>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#why">Why Us</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#location">Location</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="https://wa.me/918451036713?text=Hello!%20I%20would%20like%20to%20know%20more%20about%20The%20Jungle%20Book%20Kids%20Play%20Zone." target="_blank" class="nav-cta">Book Now 🎉</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <span class="close-btn" onclick="toggleMenu()">✕</span>
+  <a href="#about" onclick="toggleMenu()">About Us</a>
+  <a href="#why" onclick="toggleMenu()">Why Choose Us</a>
+  <a href="#gallery" onclick="toggleMenu()">Gallery</a>
+  <a href="#location" onclick="toggleMenu()">Location</a>
+  <a href="#contact" onclick="toggleMenu()">Contact</a>
+  <a href="#enquiry" onclick="toggleMenu()">Enquiry</a>
+  <a href="https://wa.me/918451036713?text=Hello!%20I%20would%20like%20to%20know%20more%20about%20The%20Jungle%20Book%20Kids%20Play%20Zone." target="_blank" style="color: #25D366;">📲 Book on WhatsApp</a>
+</div>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-bg-deco">
+    <div class="sun-glow"></div>
+    <svg class="leaf leaf-1" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M10 190 Q100 10 190 30 Q150 100 10 190Z" fill="#4caf50"/>
+      <path d="M100 100 Q100 10 190 30" stroke="#2e7d47" stroke-width="3" fill="none"/>
+    </svg>
+    <svg class="leaf leaf-2" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M10 190 Q100 10 190 30 Q150 100 10 190Z" fill="#4caf50"/>
+    </svg>
+    <svg class="leaf leaf-3" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M10 190 Q100 10 190 30 Q150 100 10 190Z" fill="#66bb6a"/>
+    </svg>
+    <svg class="leaf leaf-4" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M10 190 Q100 10 190 30 Q150 100 10 190Z" fill="#4caf50"/>
+    </svg>
+  </div>
+  <div class="hero-animals" aria-hidden="true">
+    <span class="hero-animal">🦁</span>
+    <span class="hero-animal">🌿</span>
+    <span class="hero-animal">🐒</span>
+    <span class="hero-animal">🌿</span>
+    <span class="hero-animal">🦒</span>
+  </div>
+  <div class="hero-content">
+    <div class="hero-badge">🌿 Kausa, Mumbra, Thane</div>
+    <div class="hero-emoji-row">🦁🐒🌿🦒🎈</div>
+    <h1 class="hero-title">WELCOME TO THE <span class="accent">JUNGLE BOOK</span> KIDS PLAY ZONE!</h1>
+    <p class="hero-sub">A Fun World Where Kids Play, Explore & Have Fun!</p>
+    <div class="hero-age">👶 Designed for Children Aged <strong>&nbsp;1–10 Years</strong></div>
+    <div class="hero-buttons">
+      <a class="btn-primary" href="https://wa.me/918451036713?text=Hello!%20I%20would%20like%20to%20know%20more%20about%20The%20Jungle%20Book%20Kids%20Play%20Zone." target="_blank">
+        📲 BOOK NOW
+      </a>
+      <a class="btn-secondary" href="tel:8451036713">
+        📞 CALL NOW
+      </a>
+    </div>
+  </div>
+  <div class="scroll-hint" aria-hidden="true">↓</div>
+</section>
+
+<!-- ABOUT -->
+<section class="about-section" id="about">
+  <div class="section-inner">
+    <div class="about-grid">
+      <div class="about-visual">
+        <span class="about-big-emoji">🦁🌿🎈</span>
+        <div class="about-tagline">
+          The Jungle Book Kids Play Zone
+          <small>Shimla Park, Kausa, Mumbra</small>
+        </div>
+        <div class="about-stat-row">
+          <div class="about-stat">
+            <div class="about-stat-num">1–10</div>
+            <div class="about-stat-lbl">Age Group</div>
+          </div>
+          <div class="about-stat">
+            <div class="about-stat-num">🎉</div>
+            <div class="about-stat-lbl">Fun Zone</div>
+          </div>
+          <div class="about-stat">
+            <div class="about-stat-num">🦺</div>
+            <div class="about-stat-lbl">Safe Space</div>
+          </div>
+        </div>
+      </div>
+      <div class="about-text">
+        <div class="section-tag">About Us</div>
+        <h2 class="section-title">A Magical Place for <span class="accent">Little Explorers</span></h2>
+        <p>The Jungle Book Kids Play Zone is a fun and exciting indoor play destination for children aged 1 to 10 years. Our colourful jungle-inspired space gives children a place to play, explore and enjoy memorable moments.</p>
+        <p>We believe every child deserves a safe, joyful space to be themselves — to laugh, climb, discover and grow. Our play zone brings the adventure of the jungle right here in Kausa, Mumbra.</p>
+        <p>Parents can relax knowing their little ones are in a safe, clean, and supervised environment designed with love for children.</p>
+        <div class="about-tagline-pill">Play • Explore • Have Fun 🌿</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY CHOOSE -->
+<section class="why-section" id="why">
+  <div class="section-inner text-center">
+    <div class="section-tag">Why Us</div>
+    <h2 class="section-title">Why Choose <span class="accent">The Jungle Book?</span></h2>
+    <p class="section-lead" style="margin: 0 auto 40px;">Everything designed to give your child the most exciting and safe play experience.</p>
+    <div class="cards-grid">
+      <div class="why-card">
+        <span class="why-icon">🦁</span>
+        <h3>Jungle-Themed Fun Environment</h3>
+        <p>Immersive jungle décor, wall art, and colourful play structures that spark imagination in every child.</p>
+      </div>
+      <div class="why-card">
+        <span class="why-icon">🎈</span>
+        <h3>Exciting Play Area</h3>
+        <p>Slides, soft play, climbing zones and more — packed with activities that keep children happily engaged for hours.</p>
+      </div>
+      <div class="why-card">
+        <span class="why-icon">👶</span>
+        <h3>For Kids Aged 1–10 Years</h3>
+        <p>Age-appropriate zones and activities thoughtfully designed for toddlers to older kids — every child has their own fun.</p>
+      </div>
+      <div class="why-card">
+        <span class="why-icon">🎉</span>
+        <h3>Fun and Memorable Experiences</h3>
+        <p>Birthdays, weekends, school holidays — create lasting memories your child will talk about for years.</p>
+      </div>
+      <div class="why-card">
+        <span class="why-icon">📍</span>
+        <h3>Convenient Location in Kausa</h3>
+        <p>Easily accessible at Pleasure Garden, near Love Kausa Circle — right in the heart of Mumbra, Thane.</p>
+      </div>
+      <div class="why-card">
+        <span class="why-icon">📞</span>
+        <h3>Easy Contact & WhatsApp Enquiry</h3>
+        <p>Reach us instantly via call or WhatsApp for bookings, party enquiries, and any questions you have.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section class="gallery-section" id="gallery">
+  <div class="section-inner">
+    <div class="text-center" style="margin-bottom:36px;">
+      <div class="section-tag">Gallery</div>
+      <h2 class="section-title">See the <span style="color:var(--yellow)">Magic</span> Inside! 🎠</h2>
+      <p class="section-lead" style="margin:0 auto;color:rgba(255,255,255,0.75);">A glimpse into our colourful, fun-filled jungle play world — your child's next favourite place!</p>
+    </div>
+    <div class="gallery-grid" id="galleryGrid">
+      <div class="gallery-item">
+        <div class="gallery-placeholder">
+          <span class="ph-icon">📷</span>
+          <span>Upload your business photo here – Indoor Play Area</span>
+        </div>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-placeholder">
+          <span class="ph-icon">🎨</span>
+          <span>Jungle Wall Artwork</span>
+        </div>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-placeholder">
+          <span class="ph-icon">🛝</span>
+          <span>Play Equipment & Slides</span>
+        </div>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-placeholder">
+          <span class="ph-icon">🌈</span>
+          <span>Colourful Kids Flooring</span>
+        </div>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-placeholder">
+          <span class="ph-icon">🎉</span>
+          <span>Events & Birthday Parties</span>
+        </div>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-placeholder">
+          <span class="ph-icon">🦁</span>
+          <span>Opening Day Celebration</span>
+        </div>
+      </div>
+    </div>
+    <div class="gallery-upload-notice">
+      📸 <strong>Business Owner:</strong> Replace the placeholder cards above with your real photos and videos. Simply share your images and the website will display them in this gallery with click-to-view fullscreen support.
+    </div>
+  </div>
+</section>
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+  <span class="lightbox-close">✕</span>
+  <img id="lightboxImg" src="" alt="Gallery photo">
+</div>
+
+<!-- LOCATION -->
+<section class="location-section" id="location">
+  <div class="section-inner">
+    <div style="text-align:center;margin-bottom:36px;">
+      <div class="section-tag">Visit Us</div>
+      <h2 class="section-title">Find Us <span class="accent">Easily</span> 📍</h2>
+      <p class="section-lead" style="margin:0 auto;">We're right in the heart of Kausa, Mumbra — easy to reach for families from across Thane.</p>
+    </div>
+    <div class="location-grid">
+      <div class="location-info">
+        <div class="address-card">
+          <p><span class="addr-icon">📍</span><strong>The Jungle Book Kids Play Zone</strong></p>
+          <p style="margin-top:10px;">Shop No. 9, First Floor,<br>Above A to Z Pet Shop,<br>Pleasure Garden, Near Love Kausa Circle,<br>Shimla Park, Kausa,<br><strong>Thane – 400612</strong></p>
+        </div>
+        <div class="address-card">
+          <p><span class="addr-icon">⏰</span><strong>Opening Hours</strong></p>
+          <p style="margin-top:8px;">Open Every Day<br>Morning till Evening<br>Call us to confirm timings: <a href="tel:8451036713" style="color:var(--green-mid);font-weight:700;">8451036713</a></p>
+        </div>
+        <a href="https://maps.google.com/?q=Shop+No+9+First+Floor+Above+A+to+Z+Pet+Shop+Pleasure+Garden+Near+Love+Kausa+Circle+Shimla+Park+Kausa+Thane+400612" target="_blank" class="btn-secondary" style="display:inline-flex;align-items:center;gap:10px;margin-top:8px;">
+          🗺️ GET DIRECTIONS
+        </a>
+      </div>
+      <div>
+        <div class="map-embed">
+          <iframe
+            src="https://maps.google.com/maps?q=Pleasure+Garden+Love+Kausa+Mumbra+Thane+400612&output=embed"
+            allowfullscreen loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="The Jungle Book Kids Play Zone location map">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact-section" id="contact">
+  <div class="section-inner">
+    <div class="text-center" style="margin-bottom:36px;">
+      <div class="section-tag">Contact Us</div>
+      <h2 class="section-title">Get in <span style="color:var(--yellow)">Touch</span> 📞</h2>
+      <p class="section-lead" style="margin:0 auto;">Call or WhatsApp us for bookings, birthday parties, or any questions. We're always happy to help!</p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-col">
+        <h3>📞 Call Us</h3>
+        <a class="contact-btn btn-call" href="tel:8451036713">
+          <span class="cb-icon">📱</span>
+          <div>
+            <span class="cb-label">Tap to Call</span>
+            8451036713
+          </div>
+        </a>
+        <a class="contact-btn btn-call" href="tel:9167548509">
+          <span class="cb-icon">📱</span>
+          <div>
+            <span class="cb-label">Tap to Call</span>
+            9167548509
+          </div>
+        </a>
+      </div>
+      <div class="contact-col">
+        <h3>💬 WhatsApp Us</h3>
+        <a class="contact-btn btn-wa" href="https://wa.me/918451036713?text=Hello!%20I%20would%20like%20to%20know%20more%20about%20The%20Jungle%20Book%20Kids%20Play%20Zone." target="_blank">
+          <span class="cb-icon">💬</span>
+          <div>
+            <span class="cb-label">Chat on WhatsApp</span>
+            8451036713
+          </div>
+        </a>
+        <a class="contact-btn btn-wa" href="https://wa.me/919167548509?text=Hello!%20I%20would%20like%20to%20know%20more%20about%20The%20Jungle%20Book%20Kids%20Play%20Zone." target="_blank">
+          <span class="cb-icon">💬</span>
+          <div>
+            <span class="cb-label">Chat on WhatsApp</span>
+            9167548509
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- INSTAGRAM -->
+<section class="instagram-section" id="instagram">
+  <div class="section-inner text-center">
+    <div class="section-tag">Instagram</div>
+    <h2 class="section-title">Follow Our Jungle Adventure! 🦁🌿</h2>
+    <p class="section-lead" style="margin:0 auto 24px;color:rgba(255,255,255,0.85);">See photos, videos, events and fun moments from our play zone. Follow us and stay updated!</p>
+    <div class="insta-handle">
+      <span>📸</span>
+      @thejunglebook_kidszone
+    </div>
+    <br>
+    <a class="btn-insta" href="https://www.instagram.com/thejunglebook_kidszone/" target="_blank">
+      📱 FOLLOW US ON INSTAGRAM
+    </a>
+  </div>
+</section>
+
+<!-- ENQUIRY FORM -->
+<section class="form-section" id="enquiry">
+  <div class="section-inner">
+    <div class="text-center" style="margin-bottom:32px;">
+      <div class="section-tag">Enquiry</div>
+      <h2 class="section-title">Send Us an <span class="accent">Enquiry</span> 📩</h2>
+      <p class="section-lead" style="margin:0 auto;">Fill in the form and we'll get back to you shortly, or send it directly to us on WhatsApp!</p>
+    </div>
+    <div class="enquiry-form">
+      <div class="form-row">
+        <label for="parentName">Parent's Name *</label>
+        <input type="text" id="parentName" placeholder="Enter your name" required>
+      </div>
+      <div class="form-row">
+        <label for="childName">Child's Name *</label>
+        <input type="text" id="childName" placeholder="Enter child's name" required>
+      </div>
+      <div class="form-row">
+        <label for="childAge">Child's Age *</label>
+        <select id="childAge" required>
+          <option value="">Select age</option>
+          <option>1 year</option>
+          <option>2 years</option>
+          <option>3 years</option>
+          <option>4 years</option>
+          <option>5 years</option>
+          <option>6 years</option>
+          <option>7 years</option>
+          <option>8 years</option>
+          <option>9 years</option>
+          <option>10 years</option>
+        </select>
+      </div>
+      <div class="form-row">
+        <label for="mobile">Mobile Number *</label>
+        <input type="tel" id="mobile" placeholder="Enter your mobile number" required>
+      </div>
+      <div class="form-row">
+        <label for="message">Message</label>
+        <textarea id="message" placeholder="What would you like to know? (e.g. ticket price, birthday party, timing...)"></textarea>
+      </div>
+      <div class="form-btns">
+        <button class="form-submit" onclick="submitForm(event)">📩 Submit Enquiry</button>
+        <a class="form-wa-btn" id="waFormBtn" href="#" onclick="sendViaWhatsApp(event)">💬 Send via WhatsApp</a>
+      </div>
+      <div class="form-success" id="formSuccess">
+        <span class="fs-icon">🎉</span>
+        Thank you! Your enquiry has been received. We'll contact you shortly.<br>
+        <small style="font-size:13px;font-weight:600;color:var(--text-mid);">The Jungle Book Kids Play Zone Team 🦁🌿</small>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <h3>🦁 The Jungle Book Kids Play Zone</h3>
+        <div class="tagline">Play • Explore • Have Fun</div>
+        <p>A fun and safe jungle-themed indoor play destination for children aged 1–10 years in Kausa, Mumbra, Thane.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#location">Location</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#enquiry">Enquiry</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <p>📍 Kausa, Mumbra, Thane – 400612</p>
+        <p><a href="tel:8451036713" style="color:rgba(255,255,255,0.7);">📞 8451036713</a></p>
+        <p><a href="tel:9167548509" style="color:rgba(255,255,255,0.7);">📞 9167548509</a></p>
+        <p><a href="https://www.instagram.com/thejunglebook_kidszone/" target="_blank" style="color:rgba(255,255,255,0.7);">📱 @thejunglebook_kidszone</a></p>
+      </div>
+    </div>
+    <hr class="footer-divider">
+    <div class="footer-bottom">
+      <p>© 2024 The Jungle Book Kids Play Zone. All rights reserved.</p>
+      <div class="footer-animals">🦁🐒🦒🌿🎈</div>
+    </div>
+  </div>
+</footer>
+
+<!-- FLOATING BUTTONS -->
+<div class="fab-container">
+  <a class="fab fab-wa" href="https://wa.me/918451036713?text=Hello!%20I%20would%20like%20to%20know%20more%20about%20The%20Jungle%20Book%20Kids%20Play%20Zone." target="_blank">
+    💬 WhatsApp Us
+  </a>
+  <a class="fab fab-call" href="tel:8451036713">
+    📞 Call Now
+  </a>
+</div>
+
+<script>
+function toggleMenu() {
+  const m = document.getElementById('mobileMenu');
+  m.classList.toggle('open');
+}
+
+function submitForm(e) {
+  e.preventDefault();
+  const p = document.getElementById('parentName').value.trim();
+  const c = document.getElementById('childName').value.trim();
+  const a = document.getElementById('childAge').value;
+  const mob = document.getElementById('mobile').value.trim();
+  if (!p || !c || !a || !mob) {
+    alert('Please fill in all required fields (marked with *)');
+    return;
+  }
+  document.getElementById('formSuccess').style.display = 'block';
+  document.getElementById('formSuccess').scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+
+function sendViaWhatsApp(e) {
+  e.preventDefault();
+  const p = document.getElementById('parentName').value.trim() || 'Not provided';
+  const c = document.getElementById('childName').value.trim() || 'Not provided';
+  const a = document.getElementById('childAge').value || 'Not provided';
+  const mob = document.getElementById('mobile').value.trim() || 'Not provided';
+  const msg = document.getElementById('message').value.trim() || 'No message';
+  const text = `Hello! I would like to enquire about The Jungle Book Kids Play Zone.%0A%0AParent's Name: ${encodeURIComponent(p)}%0AChild's Name: ${encodeURIComponent(c)}%0AChild's Age: ${encodeURIComponent(a)}%0AMobile: ${encodeURIComponent(mob)}%0AMessage: ${encodeURIComponent(msg)}`;
+  window.open('https://wa.me/918451036713?text=' + text, '_blank');
+}
+
+function openLightbox(src) {
+  const lb = document.getElementById('lightbox');
+  const img = document.getElementById('lightboxImg');
+  img.src = src;
+  lb.classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeLightbox() {
+  document.getElementById('lightbox').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') closeLightbox();
+});
+
+// Gallery click (for real images when added)
+document.querySelectorAll('.gallery-item').forEach(item => {
+  item.addEventListener('click', function() {
+    const img = this.querySelector('img');
+    if (img) openLightbox(img.src);
+  });
+});
+
+// Smooth nav highlight
+window.addEventListener('scroll', () => {
+  const nav = document.getElementById('navbar');
+  if (window.scrollY > 60) {
+    nav.style.background = 'rgba(13,61,26,0.98)';
+  } else {
+    nav.style.background = 'rgba(26,92,46,0.97)';
+  }
+});
+</script>
+</body>
+</html>
